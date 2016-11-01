@@ -1,0 +1,74 @@
+.right-side-bar {
+  background-color: white;
+  order:2;
+  flex:1.8;
+    margin-left:12px;
+    margin-right:12px;
+}
+.left-side-bar {
+  background-color: white;
+  order:1;
+  flex:1.2;
+}
+.left-side-bar ul li:nth-child(1){
+	font-size:1.2em;
+	font-weight:700;
+}
+.left-side-bar ul{
+	list-style-type: none;
+	padding:0;
+}
+.left-side-bar ul li{
+	padding-top:16px;
+	padding-bottom:16px;
+	width:100%;
+	text-align:center;
+}
+.left-side-bar ul li:hover{
+	background:red;
+}
+.search-field{
+	width:100%;
+	margin:0 auto;
+	height:45px;
+	display: flex;
+}
+.search-field button{
+	border-radius:0 .5em .5em 0;
+	font-size:1.2em;
+	outline:0;
+	border:.08em solid #c73a11;
+	background:linear-gradient(to bottom,#e85c33 0,#e53a2b 100%);
+	color:white;
+}
+.search-field input[type='text']{
+	border-radius:.5em 0 0 .5em;
+	color:black;
+	border:.08em solid rgba(0,0,0,.1);
+	clear:both;
+	width:100%;
+	outline:0;
+	transition: border-color .3s;
+	padding-left:5px;
+}
+
+/* ads*/
+
+.ads{
+	display:flex;
+		justify-content: space-between;
+		flex-wrap:wrap;
+}
+.ads p:nth-child(2){
+}
+
+.latest-books{
+	display:flex;
+}
+.latest-books img{
+	margin-top:12px;
+}
+.latest-books p{
+	width:250px;
+	margin-left:6px;
+}
